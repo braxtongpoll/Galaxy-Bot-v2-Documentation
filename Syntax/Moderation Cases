@@ -11,9 +11,9 @@
 
 **Variables able to use**
 
-| Variable Name | Type |
-| :---: | :---: | :---: |
-| moderator | user object |
-| victim | user object |
-| reversedate | date object |
-| type | string |
+| Variable Name | Type        |
+|---------------|-------------|
+| moderator     | user object |
+| victim        | user object |
+| reversedate   | date object |
+| type          | string      |
