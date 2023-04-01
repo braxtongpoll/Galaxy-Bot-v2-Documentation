@@ -9,6 +9,13 @@
 → Moderator: ${moderator.tag} (\`${moderator.id}\`)\n→ Victim: ${victim.tag} (\`${victim.id}\`)${reason ? `\n→ Reason: ${reason}` : ``}${reversedate ? `\n→ Reversal date: <t:${(reversedate.getTime() / 1000).toFixed()}>` : ``}
 ```
 
+**Example output**
+
+→ Moderator: PlutoTheDev#1000 (`399718367335940117`)
+→ Victim: Jord#5674 (`726278967090216973`)
+→ Reason: test
+→ Reversal date: <t:1680334210>
+
 **Variables able to use**
 
 | Variable Name | Type        |
