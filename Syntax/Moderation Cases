@@ -6,7 +6,14 @@
 
 **Default**
 ```
-- Victim: NAMETAG (ID)
-- Moderator: NAMETAG (ID)
-- Reason: REASON
+→ Moderator: ${moderator.tag} (\`${moderator.id}\`)\n→ Victim: ${victim.tag} (\`${victim.id}\`)${reason ? `\n→ Reason: ${reason}` : ``}${reversedate ? `\n→ Reversal date: <t:${(reversedate.getTime() / 1000).toFixed()}>` : ``}
 ```
+
+**Variables able to use**
+
+| Variable Name | Type |
+| :---: | :---: | :---: |
+| moderator | user object |
+| victim | user object |
+| reversedate | date object |
+| type | string |
